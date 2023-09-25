@@ -89,7 +89,6 @@ void affectationMultipleCollaborateur(){
 
     printf("Veuillez saisir l'id de la tache : ");
     scanf("%d",&idTache);
-
     for(i = 0; i < nombreDeTaches; i++){
         if(taches[i].id == idTache){
             int sort;
